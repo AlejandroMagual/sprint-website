@@ -1,5 +1,5 @@
 
-#header {
+header {
     height: 100px;
     background-color: white;
 }
@@ -12,7 +12,18 @@
     max-width: 50px;
     margin-top: 20px;
 }
+#reichstag {
+    max-width: 100%;
+}
 #image {
     max-width: 100%;
     opacity: 0.5;
+}
+#title {
+    position: absolute;
+    top:160px;
+    left:130px;
+    font-size:21px;
+    text-align: center;
+    font-family: arial;
 }
