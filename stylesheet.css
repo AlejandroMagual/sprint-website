@@ -4,11 +4,15 @@
     background-color: white;
 }
 #sprinter {
-
+    max-width: 200px;
+    margin-top: 13px;
 }
 #menu {
     float: right;
+    max-width: 50px;
+    margin-top: 20px;
 }
 #image {
     max-width: 100%;
+    opacity: 0.5;
 }
