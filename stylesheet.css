@@ -15,9 +15,8 @@ header {
     position: relative;
 }
 #reichstag img {
-    position: absolute;
     width: 100%;
-    opacity: 0.5;
+    /*how can I make pic darker?*/
 }
 #reichstag h1 {
     position: absolute;
@@ -34,8 +33,6 @@ header {
     width: 100%;
 }
 #button {
-    /*position: absolute;
-    top: 60%;*/
     margin: auto;
     border-radius: 20px;
     border: 2px solid #D2691E;
@@ -46,17 +43,64 @@ header {
     color: #D2691E;
     font-size: 20px;
 }
-/*#button h2 {
+#content {
     position: relative;
-    text-align: center;
-    color: 	#D2691E;
-    text-size: 15px;
-    font-style: italic;
-    font-family: serif;
-}*/
-/*#content {
-    position: relative;
-    height: 100px;
-    width:100px;
+    height: 400px;
+    width:100%;
     background-color: grey;
-}*/
+}
+.title {
+
+}
+.text {
+    font-size: 15px;
+}
+.item {
+    /*border: 2px solid blue;*/
+    width: 50%;
+    height: 200px;
+}
+#top-left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#top-right {
+position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#bottom-right {
+position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.item-inside {
+    position: relative;
+
+}
+.figure {
+    /*border: 2px dashed green;*/
+    position: absolute;
+    width: 10%;
+    top: 0px;
+    left: 0px;
+}
+.item-text {
+    position: absolute;
+    /*border: 2px dashed red;*/
+    height: 150px;
+    width: 80%;
+    top: 0px;
+    right: 0px;
+}
+footer {
+    height: 20px;
+    background-color: black;
+}
