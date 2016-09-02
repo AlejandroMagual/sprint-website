@@ -13,17 +13,43 @@ header {
     margin-top: 20px;
 }
 #reichstag {
-    max-width: 100%;
+    position: relative;
 }
-#image {
+#reichstag img {
+    position: absolute;
     max-width: 100%;
     opacity: 0.5;
 }
-#title {
+#reichstag h1 {
     position: absolute;
-    top:160px;
-    left:130px;
-    font-size:21px;
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    font-style: italic;
+    font-family: serif;
     text-align: center;
-    font-family: arial;
+}
+#button {
+    position: absolute;
+    top: 40%;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid #D2691E;
+    height: 25px;
+    width: 150px;
+    background-color: #FFD700;
+}
+#button h2 {
+    position: absolute;
+    text-align: center;
+    color: 	#D2691E;
+    text-size: 15px;
+    font-style: italic;
+    font-family: serif;
+}
+#content {
+    position: relative;
+    height: 100px;
+    width:100px;
+    background-color: grey;
 }
