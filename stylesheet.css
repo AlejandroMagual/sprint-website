@@ -14,22 +14,25 @@ header {
 #reichstag {
     position: relative;
 }
+#text-and-button {
+    position: absolute;
+    margin-top: 27%;
+    width:100%;
+}
 #reichstag img {
     width: 100%;
+    vertical-align:bottom;
     /*how can I make pic darker?*/
 }
 #reichstag h1 {
-    position: absolute;
     width: 100%;
-    margin-top: 30%;
     color: white;
     font-style: italic;
     font-family: serif;
     text-align: center;
 }
-#reichstag > div {
-    position: absolute;
-    margin-top: 35%;
+
+#div-button {
     width: 100%;
 }
 #button {
@@ -102,5 +105,5 @@ position: absolute;
 }
 footer {
     height: 20px;
-    background-color: black;
+    background-color: blue;
 }
