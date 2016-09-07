@@ -1,6 +1,7 @@
+/* <!-- Section: Header --> */
 header {
     height: 70px;
-    background-color: white;
+    background-color: #C0C0C0;
 }
 #sprinter {
     max-width: 130px;
@@ -13,6 +14,27 @@ header {
     margin-top: 16px;
     margin-right: 40px;
 }
+/* <!-- Section: Menu (event driven; normally not displayed) --> */
+#menu-content {
+    display: none;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    color: blue;
+}
+#menu-content p {
+    margin-left: 20px;
+}
+#X-menu {
+    color: black;
+    text-align: right;
+    margin-right: 10px;
+}
+/* <!-- Section: Image --> */
 #reichstag {
     position: relative;
 }
@@ -48,6 +70,7 @@ header {
     vertical-align:bottom;
     /*how can I make pic darker?*/
 }
+/* <!-- Section: Description --> */
 .container {
     background-color: #C0C0C0;
     padding-top: 35px;
@@ -107,6 +130,7 @@ position: absolute;
     font-size: 15px;
     margin-top:0px;
 }
+/* <!-- Section: Footer --> */
 footer {
     height: 30px;
     background-color: GREY;
